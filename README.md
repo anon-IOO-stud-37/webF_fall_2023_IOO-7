@@ -1,0 +1,12 @@
+what to know before running. Short of what is done by deploy.sh:
+- creates dirs, files, and inputs content to files. 
+- modifies: /etc/hosts, itself(move+rename), creates new scripts.
+- creates. .conf file is sites-available
+- sets permissions for apache2 to use files and dirs in var/www/html/DocumentRoot
+- enables cgid
+- creates website
+- curls information
+- uses API for weather forecast
+- starts cronjob
+- See events.txt for event log
+- NOTE: uses apache2
